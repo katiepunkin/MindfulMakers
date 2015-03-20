@@ -43,3 +43,6 @@ $gray: #efebe7;
 	font-weight:900;
 	text-transform:uppercase;
 }
+@mixin body-copy{
+    font-family:"freight-sans-pro", Helvetica, Arial, sans-serif;
+}
