@@ -1,0 +1,45 @@
+//Theme Colors
+
+$red: #bf443f;
+$blue: #50627d;
+$teal: #579a9f;
+$pink: #f5d3c4;
+$purple: #d5c3c8;
+$gray: #efebe7;
+
+//Fonts
+@font-face {
+    font-family: 'nr_sansblack';
+    src: url('/fonts/NexaRustSans-Black-Free-webfont.eot');
+    src: url('/fonts/NexaRustSans-Black-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/NexaRustSans-Black-Free-webfont.woff2') format('woff2'),
+         url('/fonts/NexaRustSans-Black-Free-webfont.woff') format('woff'),
+         url('/fonts/NexaRustSans-Black-Free-webfont.ttf') format('truetype'),
+         url('/fonts/NexaRustSans-Black-Free-webfont.svg#nexa_rust_sansblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nr_slabblack';
+    src: url('/fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('/fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url('/fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('/fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('/fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin nr-sansblack{
+	font-family:'nr_sansblack', Helvetica, Arial, sans-serif;
+	font-weight:900;
+	text-transform:uppercase;
+}
+
+@mixin nr-slabblack{
+	font-family:'nr_slabblack', Georgia, Times, "Times New Roman", serif;
+	font-weight:900;
+	text-transform:uppercase;
+}
